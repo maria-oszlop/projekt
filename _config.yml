@@ -1,0 +1,16 @@
+name: Sérgio Kopplin
+bio: 'Baterista desde sempre. Atualmente trabalhando como Front-end Developer na Catho! Formado em Sistemas para Internet e Discípulo de Cristo'
+picture: 'assets/images/profile.jpg'
+
+url: http://koppl.in
+permalink: /:title/
+
+analytics: 'UA-67821299-1'
+disqus: sergiokopplin
+email: sergiokopplin@gmail.com
+facebook: sergiokopplin
+youtube: sergiokopplin
+github: sergiokopplin
+office: catho.com.br
+
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src]

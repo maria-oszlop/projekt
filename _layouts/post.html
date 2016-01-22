@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% include schema.html %}
+
+<div class="site-wrapper">
+    <div class="post">
+        {% include header.html %}
+            <h1>{{ page.title }}</h1>
+
+            {{content}}
+
+            <section class="author">
+                <div class="author__left">
+                    <img class="author__picture reyes" src="/{{ site.picture }}" alt="{{ site.name }}">
+                </div>
+
+                <div class="author__right">
+                    <h4 class="author__name">{{ site.name }}</h4>
+                    <p class="author__bio">{{ site.bio }}</p>
+                    <p class="author__marker"><a href="http://google.com.br/search?q=barueri" target="_blank">Barueri - SP / Brasil</a></p>
+                    <p class="author__email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                </div>
+            </section>
+
+            <section class="disqus">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+
+                    var disqus_shortname = '{{ site.disqus }}';
+                    var disqus_developer = 0;
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </section>
+
+        {% include footer.html %}
+    </div>
+</div>

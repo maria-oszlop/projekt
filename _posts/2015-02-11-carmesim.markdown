@@ -1,0 +1,17 @@
+---
+title: "Carmesim"
+layout: post
+date: 2015-02-11 12:00
+tags: sublime
+img: carmesim/carmesim.png
+---
+Sublime Text 3 Theme. A mix from the Dracula and the Spacegray.
+
+A set of custom UI themes for Sublime Text 2/3 based on [Spacegray](https://github.com/kkga/spacegray). Comes with [Dracula](https://github.com/zenorocha/dracula-theme) color scheme.
+
+*All the credits to the creators of themes Dracula and Spacegray!*
+
+![Imagem Sublime](/assets/images/{{ page.img }})
+<span class="img-description">fonte: github.com/sergiokopplin/carmesim</span>
+
+Confira: [Carmesim](https://packagecontrol.io/packages/Theme%20-%20Carmesim).
