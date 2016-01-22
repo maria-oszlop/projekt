@@ -4,9 +4,21 @@
     max-width 100%
     margin 40px auto 0
 
+    +mobile()
+        text-align center
+
+    +tablet()
+        text-align center
+
     .author__picture
         max-width 85%
         border-radius 100%
+
+        +mobile()
+            max-width 33%
+
+        +tablet()
+            max-width 33%
 
     .author__name
         font-size 1.7rem
@@ -22,6 +34,14 @@
         text-align justify
         line-height 1.5
         margin 1rem 0 0
+
+        +mobile()
+            margin 1rem 0
+            text-align center
+
+        +tablet()
+            margin 1rem 0
+            text-align center
 
     .author__marker,
     .author__email
@@ -45,7 +65,27 @@
         width 20%
         display inline-block
 
+        +mobile()
+            width 88%
+            margin 0 auto 2rem
+            display block
+
+        +tablet()
+            width 90%
+            margin 0 auto 2rem
+            display block
+
     .author__right
         width 79%
         display inline-block
         vertical-align top
+
+        +mobile()
+            display block
+            width 88%
+            margin 0 auto
+
+        +mobile()
+            display block
+            width 90%
+            margin 0 auto
