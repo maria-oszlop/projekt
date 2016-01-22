@@ -1,4 +1,4 @@
-# Sérgio A. Kopplin ~ [http://koppl.in][sitelink]
+# Sérgio A. Kopplin ~ [http://koppl.in][http://koppl.in]
 [![Travis](https://img.shields.io/travis/sergiokopplin/koppl.in.svg)](https://travis-ci.org/sergiokopplin/koppl.in)
 [![Gitter](https://img.shields.io/gitter/room/sergiokopplin/koppl.in.svg)](https://gitter.im/sergiokopplin/koppl.in)
 
@@ -7,8 +7,6 @@
 ## O que é?
 
 Meu website pessoal, onde tem posts, meus projetos e minhas redes sociais.
-
-O Código é aberto e pode ser usado por outros. (E DEVE SER USADO :smile:)
 
 ---
 
@@ -54,9 +52,6 @@ $ gulp
 # outros comandos:
 # minificar css
 $ gulp styles
-
-# minificar js
-$ gulp scripts
 
 # minificar imagens
 $ gulp imagemin
