@@ -13,4 +13,4 @@ youtube: sergiokopplin
 github: sergiokopplin
 office: catho.com.br
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
