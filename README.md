@@ -1,4 +1,4 @@
-# Sérgio A. Kopplin ~ [http://koppl.in][http://koppl.in]
+# Sérgio A. Kopplin ~ [http://koppl.in](http://koppl.in)
 [![Travis](https://img.shields.io/travis/sergiokopplin/k.svg)](https://travis-ci.org/sergiokopplin/koppl.in)
 
 ---
