@@ -67,7 +67,7 @@ $ gulp build
 
 ## Licença
 
-[MIT][mit] Licença © Sérgio Kopplin
+[MIT](http://kopplin.mit-license.org/) Licença © Sérgio Kopplin
 
 ---
 
