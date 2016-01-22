@@ -385,7 +385,7 @@ html {
 }
 body {
   line-height: 1;
-  font: 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 color alpha {
   -webkit-font-smoothing: antialiased;
@@ -395,7 +395,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
 }
 h1 {
@@ -726,12 +726,12 @@ footer {
 }
 .author .author__name {
   font-size: 1.7rem;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin: 0;
 }
 .author .author__bio {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #666;
   font-size: 1.5rem;
@@ -745,7 +745,7 @@ footer {
   color: #ededed;
   font-size: 13px;
   display: inline-block;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 .author .author__marker a,
