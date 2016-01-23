@@ -365,7 +365,7 @@ pre {
   white-space: pre;
   overflow: auto;
   background: #fff;
-  border: 1px solid #dbddde;
+  border: 1px solid #ededed;
   border-radius: 2px;
 }
 .site-wrapper {
@@ -522,7 +522,7 @@ pre {
 .post {
   margin-top: 125px;
 }
-.post h1 {
+.post h1.post__title {
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -600,10 +600,11 @@ footer {
   padding: 40px 0;
 }
 .author {
-  padding: 4rem 0 4rem;
+  padding: 3rem 0;
   border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
   max-width: 100%;
-  margin: 40px auto 0;
+  margin: 9rem auto 0;
 }
 @media only screen and (max-width: 400px) {
   .author {
@@ -616,33 +617,33 @@ footer {
   }
 }
 .author .author__picture {
-  max-width: 85%;
+  width: 90%;
   border-radius: 100%;
 }
 @media only screen and (max-width: 400px) {
   .author .author__picture {
-    max-width: 33%;
+    width: 33%;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   .author .author__picture {
-    max-width: 33%;
+    width: 33%;
   }
 }
 .author .author__name {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  margin: 0;
+  margin: 6px 0 0;
 }
 .author .author__bio {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #666;
-  font-size: 1.5rem;
+  color: #aaa;
+  font-size: 1.3rem;
   text-align: justify;
   line-height: 1.5;
-  margin: 1rem 0 0;
+  margin: 0;
 }
 @media only screen and (max-width: 400px) {
   .author .author__bio {

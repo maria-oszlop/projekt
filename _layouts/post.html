@@ -5,7 +5,7 @@ layout: default
 
 {% include header.html %}
 
-<h1>{{ page.title }}</h1>
+<h1 class="post__title">{{ page.title }}</h1>
 
 <span><time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time></span>
 
@@ -19,8 +19,6 @@ layout: default
     <div class="author__right">
         <h4 class="author__name">{{ site.name }}</h4>
         <p class="author__bio">{{ site.bio }}</p>
-        <p class="author__marker"><a href="http://google.com.br/search?q=barueri" target="_blank">Barueri - SP / Brasil</a></p>
-        <p class="author__email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
 </section>
 
