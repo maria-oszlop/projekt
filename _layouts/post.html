@@ -21,12 +21,12 @@ layout: default
         <p class="author__bio">{{ site.bio }}</p>
 
         <div class="author__share">
-            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.url }} - {{ page.title }} by @{{ site.github }}">
-                <span class="icon-twitter">Tweet</span>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }} - {{ page.title }} by @{{ site.github }}">
+                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="icon-twitter">Tweet</span>
             </a>
 
             <a class="facebook" href="#" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
-                <span class="icon-facebook-rect">Share</span>
+                <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg><span class="icon-facebook-rect">Share</span>
             </a>
         </div>
     </div>
