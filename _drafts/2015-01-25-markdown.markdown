@@ -2,11 +2,8 @@
 title: "Markdown!"
 layout: post
 date: 2020-10-19 14:40
+tag: markdown
 star: true
----
-
-# An exhibit of Markdown
-
 ---
 
 ## Summary:
