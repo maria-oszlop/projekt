@@ -1,17 +1,17 @@
 {
-  "name": "koppl.in",
+  "name": "k",
   "version": "0.1.0",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergiokopplin/koppl.in.git"
+    "url": "git+https://github.com/sergiokopplin/k.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergiokopplin/koppl.in/issues"
+    "url": "https://github.com/sergiokopplin/k/issues"
   },
-  "homepage": "https://github.com/sergiokopplin/koppl.in#readme",
+  "homepage": "https://github.com/sergiokopplin/k#readme",
   "devDependencies": {
     "autoprefixer-stylus": "^0.8.1",
     "browser-sync": "^2.10.1",
@@ -25,6 +25,6 @@
   },
   "scripts": {
     "build": "bundle exec jekyll build",
-    "test": "bundle exec htmlproof ./_site --verbose --href-ignore https://packagecontrol.io/packages/Theme%20-%20Carmesim"
+    "test": "bundle exec htmlproof ./_site --verbose"
   }
 }
