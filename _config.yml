@@ -1,5 +1,5 @@
 name: Sérgio Kopplin
-bio: 'Desenvolvedor Front-end na Catho. De final de semana, Baterista. Discípulo sempre'
+bio: 'Desenvolvedor Front-end na Catho'
 picture: 'assets/images/profile.jpg'
 
 url: http://koppl.in
@@ -7,7 +7,6 @@ permalink: /:title/
 
 analytics: 'UA-67821299-1'
 disqus: sergiokopplin
-email: sergiokopplin@gmail.com
 facebook: sergiokopplin
 youtube: sergiokopplin
 github: sergiokopplin
