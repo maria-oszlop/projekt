@@ -1,5 +1,5 @@
 # Sérgio A. Kopplin ~ [http://koppl.in](http://koppl.in)
-[![Travis](https://img.shields.io/travis/sergiokopplin/K.svg)](https://travis-ci.org/sergiokopplin/koppl.in)
+[![Travis](https://img.shields.io/travis/sergiokopplin/K.svg)](https://travis-ci.org/sergiokopplin/k)
 
 ---
 
@@ -20,7 +20,7 @@ Você também precisará do [npm](https://docs.npmjs.com/getting-started/install
 ## Instalação
 
 ```sh
-$ git clone git@github.com:sergiokopplin/koppl.in.git caminho/para/sua/pasta/
+$ git clone git@github.com:sergiokopplin/k.git caminho/para/sua/pasta/
 
 $ cd caminho/para/sua/pasta/
 
