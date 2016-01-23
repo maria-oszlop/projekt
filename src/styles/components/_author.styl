@@ -24,6 +24,10 @@
             width 100%
             display block
 
+        +tablet()
+            width 100%
+            display block
+
     .author__bio
         font-family fontSans
         font-weight 300
@@ -37,6 +41,10 @@
             width 100%
             display block
 
+        +tablet()
+            width 100%
+            display block
+
     .author__share
         float right
         width 40%
@@ -46,6 +54,14 @@
         top -10px
 
         +mobile()
+            width 100%
+            display block
+            top 0
+            text-align left
+            float none
+            margin-top 5px
+
+        +tablet()
             width 100%
             display block
             top 0
@@ -72,6 +88,9 @@
             +mobile()
                 margin 0 5px 10px 0
 
+            +tablet()
+                margin 0 5px 10px 0
+
         .twitter
             background #4fafed
 
@@ -85,10 +104,16 @@
         +mobile()
             width 20%
 
+        +tablet()
+            width 20%
+
     .author__right
         width 89%
         display inline-block
         vertical-align top
 
         +mobile()
+            width 78%
+
+        +tablet()
             width 78%
