@@ -476,6 +476,7 @@ pre {
   float: right;
   font-weight: 300;
   color: #aaa;
+  text-align: right;
 }
 .page {
   margin-top: 125px;
