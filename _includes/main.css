@@ -299,7 +299,7 @@ h4 {
   font-size: 1.6rem;
 }
 a {
-  color: #9556f1;
+  color: #25a63e;
   text-decoration: none;
 }
 p {
@@ -440,6 +440,15 @@ pre {
 .blog .home__header .home__header-social a {
   margin: 0 3px;
 }
+.home .home__header .home__header-social a:hover svg,
+.blog .home__header .home__header-social a:hover svg {
+  fill: #25a63e;
+}
+.home .home__header .home__header-social svg,
+.blog .home__header .home__header-social svg {
+  -webkit-transition: all ease-in-out 0.2s;
+          transition: all ease-in-out 0.2s;
+}
 .home .home__sections,
 .blog .home__sections {
   border-top: 1px solid #ededed;
@@ -460,6 +469,7 @@ pre {
   margin-left: -5px;
   background: #fff;
   box-shadow: #fff 0 0 0 5px;
+  border-radius: 3px;
 }
 .home .home__sections .home__sections-single,
 .blog .home__sections .home__sections-single {
@@ -469,7 +479,7 @@ pre {
 }
 .home .home__sections .home__sections-single:hover h3,
 .blog .home__sections .home__sections-single:hover h3 {
-  color: #9556f1;
+  color: #25a63e;
 }
 .home .home__sections .home__sections-single:hover aside,
 .blog .home__sections .home__sections-single:hover aside {
@@ -632,6 +642,7 @@ footer:before {
   margin-left: -5px;
   background: #fff;
   box-shadow: #fff 0 0 0 5px;
+  border-radius: 3px;
 }
 footer a {
   display: inline;
@@ -645,7 +656,7 @@ footer a svg {
   top: 3px;
 }
 footer a svg:hover {
-  fill: #9556f1 !important;
+  fill: #25a63e !important;
 }
 .disqus {
   margin: 0 auto;

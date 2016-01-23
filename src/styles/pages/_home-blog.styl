@@ -35,6 +35,12 @@
             a
                 margin 0 3px
 
+                &:hover svg
+                    fill delta
+
+            svg
+                transition all ease-in-out .2s
+
     .home__sections
         border-top 1px solid epsilon
         margin-top 30px
@@ -53,10 +59,10 @@
             margin-left -5px
             background #FFF
             box-shadow #FFF 0 0 0 5px
+            border-radius 3px
 
         .home__sections-single
             display block
-            // border-bottom 1px solid epsilon
             width 95%
             margin 0 auto
 
@@ -71,9 +77,6 @@
                 height 100%
                 display block
                 padding 20px 0
-
-            // &:last-child
-                // border 0
 
             h3
                 margin 0
