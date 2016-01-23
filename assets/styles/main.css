@@ -620,29 +620,9 @@ footer a svg:hover {
   max-width: 100%;
   margin: 9rem auto 0;
 }
-@media only screen and (max-width: 400px) {
-  .author {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author {
-    text-align: center;
-  }
-}
 .author .author__picture {
   width: 90%;
   border-radius: 100%;
-}
-@media only screen and (max-width: 400px) {
-  .author .author__picture {
-    width: 33%;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .author__picture {
-    width: 33%;
-  }
 }
 .author .author__name,
 .author .author__bio {
@@ -655,6 +635,12 @@ footer a svg:hover {
   font-weight: 500;
   margin: 6px 0 0;
 }
+@media only screen and (max-width: 400px) {
+  .author .author__name {
+    width: 100%;
+    display: block;
+  }
+}
 .author .author__bio {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -666,14 +652,8 @@ footer a svg:hover {
 }
 @media only screen and (max-width: 400px) {
   .author .author__bio {
-    margin: 1rem 0;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .author__bio {
-    margin: 1rem 0;
-    text-align: center;
+    width: 100%;
+    display: block;
   }
 }
 .author .author__share {
@@ -683,6 +663,16 @@ footer a svg:hover {
   text-align: right;
   position: relative;
   top: -10px;
+}
+@media only screen and (max-width: 400px) {
+  .author .author__share {
+    width: 100%;
+    display: block;
+    top: 0;
+    text-align: left;
+    float: none;
+    margin-top: 5px;
+  }
 }
 .author .author__share svg {
   fill: #fff;
@@ -701,6 +691,12 @@ footer a svg:hover {
   border-radius: 3px;
   margin-left: 5px;
 }
+@media only screen and (max-width: 400px) {
+  .author .author__share .twitter,
+  .author .author__share .facebook {
+    margin: 0 5px 10px 0;
+  }
+}
 .author .author__share .twitter {
   background: #4fafed;
 }
@@ -713,16 +709,7 @@ footer a svg:hover {
 }
 @media only screen and (max-width: 400px) {
   .author .author__left {
-    width: 88%;
-    margin: 0 auto 2rem;
-    display: block;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .author__left {
-    width: 90%;
-    margin: 0 auto 2rem;
-    display: block;
+    width: 20%;
   }
 }
 .author .author__right {
@@ -732,16 +719,7 @@ footer a svg:hover {
 }
 @media only screen and (max-width: 400px) {
   .author .author__right {
-    display: block;
-    width: 88%;
-    margin: 0 auto;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .author .author__right {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
+    width: 78%;
   }
 }
 .evidence {

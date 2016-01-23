@@ -5,21 +5,9 @@
     max-width 100%
     margin 9rem auto 0
 
-    +mobile()
-        text-align center
-
-    +tablet()
-        text-align center
-
     .author__picture
         width 90%
         border-radius 100%
-
-        +mobile()
-            width 33%
-
-        +tablet()
-            width 33%
 
     .author__name,
     .author__bio
@@ -32,6 +20,10 @@
         font-weight 500
         margin 6px 0 0
 
+        +mobile()
+            width 100%
+            display block
+
     .author__bio
         font-family fontSans
         font-weight 300
@@ -42,12 +34,8 @@
         margin 0
 
         +mobile()
-            margin 1rem 0
-            text-align center
-
-        +tablet()
-            margin 1rem 0
-            text-align center
+            width 100%
+            display block
 
     .author__share
         float right
@@ -56,6 +44,14 @@
         text-align right
         position relative
         top -10px
+
+        +mobile()
+            width 100%
+            display block
+            top 0
+            text-align left
+            float none
+            margin-top 5px
 
         svg
             fill #fff
@@ -73,6 +69,9 @@
             border-radius 3px
             margin-left 5px
 
+            +mobile()
+                margin 0 5px 10px 0
+
         .twitter
             background #4fafed
 
@@ -84,14 +83,7 @@
         display inline-block
 
         +mobile()
-            width 88%
-            margin 0 auto 2rem
-            display block
-
-        +tablet()
-            width 90%
-            margin 0 auto 2rem
-            display block
+            width 20%
 
     .author__right
         width 89%
@@ -99,11 +91,4 @@
         vertical-align top
 
         +mobile()
-            display block
-            width 88%
-            margin 0 auto
-
-        +mobile()
-            display block
-            width 90%
-            margin 0 auto
+            width 78%
