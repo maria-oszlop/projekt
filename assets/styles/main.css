@@ -646,7 +646,7 @@ footer a svg:hover {
 }
 .author .author__name,
 .author .author__bio {
-  width: 70%;
+  width: 60%;
   display: inline-block;
 }
 .author .author__name {
@@ -678,8 +678,34 @@ footer a svg:hover {
 }
 .author .author__share {
   float: right;
-  width: 30%;
+  width: 40%;
   display: inline;
+  text-align: right;
+  position: relative;
+  top: -10px;
+}
+.author .author__share svg {
+  fill: #fff;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+}
+.author .author__share .twitter,
+.author .author__share .facebook {
+  display: inline;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.author .author__share .twitter {
+  background: #4fafed;
+}
+.author .author__share .facebook {
+  background: #4361b3;
 }
 .author .author__left {
   width: 10%;
