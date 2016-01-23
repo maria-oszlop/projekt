@@ -19,6 +19,16 @@ layout: default
     <div class="author__right">
         <h4 class="author__name">{{ site.name }}</h4>
         <p class="author__bio">{{ site.bio }}</p>
+
+        <div class="author__share">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.url }} - {{ page.title }} by @{{ site.github }}">
+                <span class="icon-twitter">Tweet</span>
+            </a>
+
+            <a class="facebook" href="#" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
+                <span class="icon-facebook-rect">Share</span>
+            </a>
+        </div>
     </div>
 </section>
 

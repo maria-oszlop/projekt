@@ -594,6 +594,20 @@ footer {
   font-weight: 300;
   text-align: center;
 }
+footer a {
+  display: inline;
+}
+footer a svg {
+  width: 15px !important;
+  fill: #aaa !important;
+  -webkit-transition: ease-in-out all 0.3s;
+          transition: ease-in-out all 0.3s;
+  position: relative;
+  top: 3px;
+}
+footer a svg:hover {
+  fill: #9556f1 !important;
+}
 .disqus {
   margin: 0 auto;
   max-width: 100%;
@@ -630,6 +644,11 @@ footer {
     width: 33%;
   }
 }
+.author .author__name,
+.author .author__bio {
+  width: 70%;
+  display: inline-block;
+}
 .author .author__name {
   font-size: 1.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -657,24 +676,10 @@ footer {
     text-align: center;
   }
 }
-.author .author__marker,
-.author .author__email {
-  font-weight: normal;
-  color: #ededed;
-  font-size: 13px;
-  display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
-.author .author__marker a,
-.author .author__email a {
-  display: block;
-  margin-top: 10px;
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-.author .author__email {
-  margin-left: 2rem;
+.author .author__share {
+  float: right;
+  width: 30%;
+  display: inline;
 }
 .author .author__left {
   width: 10%;
@@ -695,7 +700,7 @@ footer {
   }
 }
 .author .author__right {
-  width: 79%;
+  width: 89%;
   display: inline-block;
   vertical-align: top;
 }
