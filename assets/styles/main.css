@@ -299,7 +299,7 @@ h4 {
   font-size: 1.6rem;
 }
 a {
-  color: #25a63e;
+  color: #4b0082;
   text-decoration: none;
 }
 p {
@@ -442,7 +442,7 @@ pre {
 }
 .home .home__header .home__header-social a:hover svg,
 .blog .home__header .home__header-social a:hover svg {
-  fill: #25a63e;
+  fill: #4b0082;
 }
 .home .home__header .home__header-social svg,
 .blog .home__header .home__header-social svg {
@@ -479,7 +479,7 @@ pre {
 }
 .home .home__sections .home__sections-single:hover h3,
 .blog .home__sections .home__sections-single:hover h3 {
-  color: #25a63e;
+  color: #4b0082;
 }
 .home .home__sections .home__sections-single:hover aside,
 .blog .home__sections .home__sections-single:hover aside {
@@ -656,7 +656,7 @@ footer a svg {
   top: 3px;
 }
 footer a svg:hover {
-  fill: #25a63e !important;
+  fill: #4b0082 !important;
 }
 .disqus {
   margin: 0 auto;
