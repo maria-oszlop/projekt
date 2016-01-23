@@ -22,7 +22,6 @@ You can pick as item to sse how to apply in markdown.
 
 ### Especial Elements
 - [Evidence](#evidence)
-- [Clipboard](#clipboard)
 - [Star](#star)
 
 ---
