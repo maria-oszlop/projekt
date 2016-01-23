@@ -419,7 +419,7 @@ h4 {
   margin-top: 40px;
 }
 a {
-  color: #5694f1;
+  color: #9556f1;
   text-decoration: none;
 }
 p {
@@ -599,6 +599,10 @@ pre {
 }
 .page {
   margin-top: 125px;
+}
+.page h1 {
+  text-align: center;
+  margin-bottom: 6rem;
 }
 .page .home__sections {
   border-top: 1px solid #ededed;
