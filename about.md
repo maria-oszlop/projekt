@@ -4,11 +4,12 @@ layout: page
 permalink: /about/index.html
 ---
 #About
+
+![Perfil][img]{:style="margin: 30px auto; width: 100px; border-radius: 100%; display: block;"}
+
 Olá. Meu nome é Sérgio A. Kopplin, nascido no mesmo ano de "[The Silence of the Lambs][imdb]" e formado em Sistemas para Internet. Sou de Barueri/SP. Já trabalhei como professor de informática, professor de música (bateria), com infra e atualmente sou desenvolvedor web, tanto de back-end como de front-end. Mas meu preferido é o front-end!
 
 Atualmente trabalho na [Catho Online][catho] e faço parte do time de desenvolvimento. Trabalho como especialista em front-end e gosto muito do que faço lá. O time é grande e a empresa investe bastante em tecnologia.
-
-![Perfil][img]{:style="margin: 30px auto; width: 100px; border-radius: 100%; display: block;"}
 
 Sou discípulo e membro da [IPI][ipi] desde sempre, e é lá que eu demonstro todo o meu talento musical como baterista. Você também pode me contrar nas redes socias [Facebook][f], [Spotify][s], [Youtube][y], [Github][g], [SlideShare][ss] e no [E-mail][e].
 
