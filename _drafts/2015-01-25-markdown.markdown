@@ -202,9 +202,7 @@ You can try the evidence!
 
 ## Star
 
-You can star a post.
-
-Just add the tag to the markdown file.
+You can star a post. Just add the tag to the markdown file.
 
 {% highlight raw %}
 star: true
