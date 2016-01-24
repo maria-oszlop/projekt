@@ -19,6 +19,7 @@ gems:
   - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://github.com

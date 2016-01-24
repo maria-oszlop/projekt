@@ -158,6 +158,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-mentions
   jekyll-seo-tag
+  jekyll-sitemap
   jemoji
   pygments.rb
   rake
