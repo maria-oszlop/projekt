@@ -9,7 +9,9 @@ analytics: 'UA-67821299-1'
 disqus: sergiokopplin
 facebook: sergiokopplin
 youtube: sergiokopplin
+spotify: 1259926422
 github: sergiokopplin
+email: sergiokopplin@gmail.com
 office: catho.com.br
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
