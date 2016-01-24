@@ -18,6 +18,7 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
+  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
