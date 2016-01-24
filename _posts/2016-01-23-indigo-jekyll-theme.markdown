@@ -7,11 +7,10 @@ img: indigo/indigo.ong
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
 projects: true
 ---
-## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
-This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
 ---
 
