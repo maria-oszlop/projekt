@@ -4,6 +4,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
@@ -13,9 +14,9 @@ layout: compress
 
     <title>Koppl.in{% if page.title %} - {{ page.title }}{% endif %}</title>
 
-    {% include favicon.html %}
+    {% seo %}
 
-    {% include metas.html %}
+    {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
