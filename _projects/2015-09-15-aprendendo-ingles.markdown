@@ -5,7 +5,6 @@ date: 2015-09-15 23:52
 tag: ingles
 img: aprendendo-ingles/bg.jpg
 description: "Olá, já parou para estudar inglês hoje? Pois é, tenho feito isso durante algum tempo e queria colocar as ferramentas que eu uso aqui nesse post para ajudar outras pessoas."
-blog: true
 ---
 
 A língua inglesa é essencial hoje em dia, essencial para conseguir um emprego melhor, para conversar com pessoas de fora do Brasil e também para visitar o Mickey. E por ele ser assim, tão importante, comecei a estudar intensamente para poder aprimorar e talvez conseguir, um dia, conseguir um emprego fora do Brasil.
