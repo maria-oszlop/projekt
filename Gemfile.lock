@@ -153,6 +153,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll
+  jekyll-mentions
   jemoji
   pygments.rb
   rake
