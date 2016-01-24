@@ -535,6 +535,15 @@ pre {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
+.projects .home__sections-single h3 {
+  display: inline;
+}
+.projects .home__sections-single .emoji {
+  display: inline;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
+}
 .page {
   margin-top: 125px;
 }
