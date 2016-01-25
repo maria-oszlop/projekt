@@ -1,5 +1,5 @@
 # Sérgio A. Kopplin ~ [http://koppl.in](http://koppl.in)
-[![Travis](https://img.shields.io/travis/sergiokopplin/K.svg)](https://travis-ci.org/sergiokopplin/K)
+[![Travis](https://img.shields.io/travis/sergiokopplin/sergiokopplin.github.io.svg)](https://travis-ci.org/sergiokopplin/sergiokopplin.github.io)
 
 ---
 
