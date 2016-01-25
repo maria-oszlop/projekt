@@ -1,17 +1,17 @@
 {
-  "name": "k",
+  "name": "sergiokopplin.github.io",
   "version": "0.1.0",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergiokopplin/k.git"
+    "url": "git+https://github.com/sergiokopplin/sergiokopplin.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergiokopplin/k/issues"
+    "url": "https://github.com/sergiokopplin/sergiokopplin.github.io/issues"
   },
-  "homepage": "https://github.com/sergiokopplin/k#readme",
+  "homepage": "https://github.com/sergiokopplin/sergiokopplin.github.io#readme",
   "devDependencies": {
     "autoprefixer-stylus": "^0.8.1",
     "browser-sync": "^2.10.1",
