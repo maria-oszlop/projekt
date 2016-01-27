@@ -8,7 +8,7 @@ description: "Olá, já parou para estudar inglês hoje? Pois é, tenho feito is
 blog: true
 ---
 
-A língua inglesa é essencial hoje em dia, essencial para conseguir um emprego melhor, para conversar com pessoas de fora do Brasil e também para visitar o Mickey. E por ele ser assim, tão importante, comecei a estudar intensamente para poder aprimorar e talvez conseguir, um dia, conseguir um emprego fora do Brasil.
+A língua inglesa é essencial hoje em dia, essencial para conseguir um emprego melhor, para conversar com pessoas de fora do Brasil e também para visitar o Mickey. E por ele ser assim, tão importante, comecei a estudar intensamente para poder aprimorar e talvez conseguir, um dia, um emprego fora do Brasil.
 
 ![Imagem Inglaterra](/assets/images/{{ page.img }})
 
