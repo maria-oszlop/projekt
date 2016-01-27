@@ -302,7 +302,7 @@ h4 {
 }
 a {
   color: #4b0082;
-  text-decoration: none;
+  text-decoration: underline;
 }
 p {
   line-height: 1.7;
@@ -511,6 +511,7 @@ pre {
   height: 100%;
   display: block;
   padding: 20px 0;
+  text-decoration: none;
 }
 .home .home__sections .home__sections-single h3,
 .blog .home__sections .home__sections-single h3,
@@ -567,6 +568,7 @@ pre {
   height: 100%;
   display: block;
   padding: 30px 0;
+  text-decoration: none;
 }
 .page .home__sections .home__sections-single:last-child {
   border: 0;
@@ -596,6 +598,11 @@ pre {
 .post h3,
 .post h4 {
   margin-top: 40px;
+}
+.post h2 a,
+.post h3 a,
+.post h4 a {
+  text-decoration: none;
 }
 .post span time {
   color: #aaa;
@@ -627,6 +634,7 @@ pre {
   font-weight: 300;
   font-size: 1.4rem;
   padding: 20px 10px;
+  text-decoration: none;
 }
 .home__header-nav {
   margin-top: 40px;
@@ -650,6 +658,7 @@ pre {
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
   width: 70px;
+  text-decoration: none;
 }
 .home__header-nav ul li a:hover {
   color: #666;
