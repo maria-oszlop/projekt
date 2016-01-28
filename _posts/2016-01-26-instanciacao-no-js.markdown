@@ -5,10 +5,11 @@ date: 2016-01-26 19:10
 tag: js
 blog: true
 ---
-<!-- more -->
-
 O JS é uma linguagem extremamente interessante e pode deixar os programadores caçando erros e bugs por conta de suas minúncias. Dentre elas, a declaração de variáveis.
+
 Segundo o [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var), "Declarações de variáveis, onde quer que elas ocorram, são processadas antes que qualquer outro código seja executado.", porém, isso não significa que as variáveis terão valores definidos antes da execução de outros código. Vamos entender esse processo melhor, através do Hoisting, Closure, Escopo Global, Escopo por parâmetro e IIFE.
+
+<!-- more -->
 
 ---
 
@@ -168,7 +169,23 @@ No nosso exemplo, a variável global adquiriu um escopo local dentro da função
 
 ## Instanciação usando uma IIFE
 
-Explique como uma variável pode receber um valor de uma IIFE. Explique como passar uma variável por parâmetro para a IIFE e acontece com ela dentro da função.
+Uma IIFE pode ser descrita como **Immediately-invoked function expression**, o que pode também ser traduzido como **Função/Expressão Imediatamente Invocada** (risos). O seu uso mais recorrente é visto quando queremos definir variáveis em um escolo local e queremos que elas não passem para o escopo global e sejam definidos na window, logo, podemos criar escopos onde precisamos e terceiros não poderão alterá-las em um escopo global. Vejamos no exemplo:
+
+{% highlight js %}
+(function () {
+    'use strict';
+
+    var sayHi = 'oi';
+    console.log(sayHi);
+}());
+
+console.log(sayHi) // ReferenceError: sayHi is not defined
+{% endhighlight %}
+
+Esse exemplo é bem simples, mas explica o todo da nossa IIFE. Dentro dela temos a abertura do primeiro parênteses, o que significa que estamos criando um escolo local para a nossa função.
+Sendo assim, logo após o fechamento das nossas chaves, temos em seguida os **()** que expressam ao JS o nosso desejo de invocarmos essa função imediatamente.
+
+> Você deve usar uma IIFE sempre que surgir a necessidade de isolar as variáveis que você precisa do escopo global. Isso é uma boa prática e é uma forma de fazer com que seu código funcione bem independente de onde ele for usado, são práticas como essa, que libs como jQuery, AngularJS, React e várias outras libs e frameworks usam. (@felquis)
 
 ---
 
@@ -180,3 +197,5 @@ Referências:
 - [pt.stackoverflow.com](http://pt.stackoverflow.com/questions/1859/como-funcionam-closures-em-javascript)
 - [javascriptissexy.com](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [http://benalman.com/news/2010/11/immediately-invoked-function-expression/](http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
+- [http://tutsmais.com.br/blog/javascript-2/o-que-e-iife-no-javascript/](http://tutsmais.com.br/blog/javascript-2/o-que-e-iife-no-javascript/)
