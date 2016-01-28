@@ -352,7 +352,6 @@ tt {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
   line-height: 20px;
-  white-space: pre-wrap;
   background: #fff;
   border-radius: 2px;
   border-radius: 2px;
@@ -365,7 +364,6 @@ pre {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 1.2rem;
   line-height: 2rem;
-  white-space: pre;
   overflow: auto;
   background: #fff;
   border: 1px solid #ededed;
