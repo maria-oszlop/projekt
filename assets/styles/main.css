@@ -699,6 +699,14 @@ footer a svg {
 footer a svg:hover {
   fill: #4b0082 !important;
 }
+footer p {
+  color: #aaa;
+  margin-top: 0;
+}
+footer p a {
+  color: #222;
+  text-decoration: none;
+}
 .disqus {
   margin: 0 auto;
   max-width: 100%;
@@ -864,4 +872,24 @@ footer a svg:hover {
   display: inline;
   background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
+}
+.pagination {
+  width: 95%;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+.pagination .page_number {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+.pagination .previous,
+.pagination .next {
+  display: inline-block;
+  font-size: 1.8rem;
+  position: relative;
+  top: 1px;
+  padding: 1px 9px;
+}
+.pagination .hidden {
+  visibility: hidden;
 }
