@@ -5,6 +5,9 @@ picture: 'assets/images/profile.jpg'
 url: http://koppl.in
 permalink: /:title/
 
+markdown: kramdown
+highlighter: rouge
+
 analytics: 'UA-67821299-1'
 disqus: sergiokopplin
 facebook: sergiokopplin
