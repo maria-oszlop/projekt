@@ -21,5 +21,5 @@ Infelizmente isso existe. Não foi minha culpa.
 
 culpados:
 
-- [Sérgio Kopplin](facebook.com/sergiokopplin)
-- [Renato Galvão](facebook.com/renato.galvones)
+- [Sérgio Kopplin](http://github.com/sergiokopplin)
+- [Renato Galvão](http://github.com/renatogalvones)
