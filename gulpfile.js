@@ -37,7 +37,6 @@ gulp.task('browserSync', ['jekyll-build'], function() {
 
 gulp.task('styles', function() {
     return gulp.src('src/styles/main.styl')
-        .pipe(changed('assets/styles'))
         .pipe(plumber())
         .pipe(stylus({
             use:[prefixer(), rupture(), nib()],
@@ -51,7 +50,6 @@ gulp.task('styles', function() {
 
 gulp.task('imagemin', function(tmp) {
     return gulp.src('assets/images/**/*.{jpg,png,gif}')
-        .pipe(changed('assets/images'))
         .pipe(plumber())
         .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
         .pipe(gulp.dest('assets/images'));
