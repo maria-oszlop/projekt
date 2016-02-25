@@ -11,7 +11,11 @@ jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.gi
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
+<<<<<<< HEAD
 Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+=======
+Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+>>>>>>> f19e2b56f85a556e312ba0170ad6cc7f26f283da
 
 ---
 

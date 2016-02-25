@@ -17,14 +17,28 @@ github: sergiokopplin
 email: sergiokopplin@gmail.com
 office: catho.com.br
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
-
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
+
+# if you don't need about or blog, comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# do you want some animations?
+animation: true
 
 gems:
   - jemoji
@@ -37,3 +51,5 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]

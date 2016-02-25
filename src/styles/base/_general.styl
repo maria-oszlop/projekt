@@ -63,6 +63,20 @@ img,
 pre
 	border-radius 4px
 
+figcaption
+	position relative
+	top -20px
+	left 0
+	right 0
+	margin 0 auto
+	width 100%
+	text-align center
+	font-size 1.3rem
+	color gama
+	font-weight 300
+
+	+mobile()
+		font-size 1.2rem
 
 blockquote
 	padding-left 15px
@@ -75,6 +89,10 @@ hr
 	background #eee
 	width 100%
 
+figure.highlight
+	width 100%
+	margin 0
+
 code,
 tt
 	padding 1px 3px
@@ -85,10 +103,6 @@ tt
 	background #fff
 	border-radius 2px
 	border-radius 2px
-
-figure.highlight
-	width 100%
-	margin 0
 
 pre
 	box-sizing border-box
@@ -104,7 +118,7 @@ pre
 	border 1px solid epsilon
 	border-radius 2px
 
-.site-wrapper
+.wrapper
 	height 100%
 	max-width 560px
 	width 96%

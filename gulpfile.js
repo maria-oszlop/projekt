@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync'),
     plumber     = require('gulp-plumber'),
     changed     = require('gulp-changed'),
-    cp          = require('child_process');
+    cp          = require('child_process'),
 
     // stylus
     stylus      = require('gulp-stylus'),
@@ -20,7 +20,7 @@ var messages = {
 
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts'], {stdio: 'inherit'}).on('close', done);
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts', '--quiet', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'}).on('close', done);
     // return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}).on('close', done);
 });
 
