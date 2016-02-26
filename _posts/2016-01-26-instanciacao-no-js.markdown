@@ -39,7 +39,7 @@ try {
 
 No **exemplo a**, a variável não havia sido declarada em nenhum momento, logo o erro foi acusado pelo console. No **exemplo b** nós temos um erro diferente, pois a declaração da variável a foi elevada pelo *hoisting* ao topo da execução, porém, a atribuição de valor ocorre depois da chamada do console.log, logo, nós temos a sua declaração válida mas sua atribuição inexistente.
 
----
+<div class="breaker"></div>
 
 ## Closure
 
@@ -84,7 +84,7 @@ Nesse exemplo teremos o mesmo resultado do anterior, porém uma closure foi cria
 
 > A closure is a special kind of object that combines two things: a function, and the environment in which that function was created. The environment consists of any local variables that were in-scope at the time that the closure was created. (MDN)
 
----
+<div class="breaker"></div>
 
 ## Variável Global
 
@@ -130,7 +130,7 @@ window.maoe
 // undefined
 {% endhighlight %}
 
----
+<div class="breaker"></div>
 
 ## Variável por parâmetro
 
@@ -166,7 +166,7 @@ sub(glob1, glob2)
 
 No nosso exemplo, a variável global adquiriu um escopo local dentro da função, transformando-se em outra variável, que apesar de ter outro nome, passou a ter um espaço alocado na memória diferente, ou seja, temos uma variável **global** chamada **glob1** com o valor *10* e uma outra **local** da função **sub** que tem o valor de *20*.
 
----
+<div class="breaker"></div>
 
 ## Instanciação usando uma IIFE
 
@@ -188,7 +188,7 @@ Sendo assim, logo após o fechamento das nossas chaves, temos em seguida os **()
 
 > Você deve usar uma IIFE sempre que surgir a necessidade de isolar as variáveis que você precisa do escopo global. Isso é uma boa prática e é uma forma de fazer com que seu código funcione bem independente de onde ele for usado, são práticas como essa, que libs como jQuery, AngularJS, React e várias outras libs e frameworks usam. (@felquis)
 
----
+<div class="breaker"></div>
 
 Referências:
 
