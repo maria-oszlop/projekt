@@ -12,7 +12,7 @@ Segundo o [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Referenc
 
 <!-- more -->
 
----
+<div class="breaker"></div>
 
 ## Hoisting
 
