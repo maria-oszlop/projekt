@@ -12,7 +12,6 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
-<<<<<<< HEAD
 analytics: 'UA-74587546-1'
 
 # if you don't want comments in your posts, set to false
