@@ -82,6 +82,10 @@ Veja abaixo algumas sugestões de sites que você vai encontrar conteúdos para 
 
 Bom, essa é a minha rotina de estudos hoje, espero ter ajudado. Até a próxima.
 
-#### Update: 24/02/16
+##### Update: 24/02/16
 
 Teste de pronúncia: [English Pronunciaton](http://www.thepoke.co.uk/2011/12/23/english-pronunciation/)
+
+##### Update: 04/03/2016
+
+Teste de Fluência Grátis: [Duolingo Testcenter](https://testcenter.duolingo.com/)
