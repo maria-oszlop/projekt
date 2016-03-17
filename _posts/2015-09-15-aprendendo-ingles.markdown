@@ -55,7 +55,7 @@ Veja abaixo algumas sugestões de sites que você vai encontrar conteúdos para 
 
 #### EXPRESSÕES COTIDIANAS
 
-* [wordheard.org/sort/](http://www.wordheard.org/sort/)
+* wordheard.org/sort
 
 
 #### DÚVIDAS DE GRAMÁTICA
