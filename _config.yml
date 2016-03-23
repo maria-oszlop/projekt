@@ -6,7 +6,7 @@ bio: 'Desenvolvedor Front-end na Catho'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: https://koppl.in
+url: http://koppl.in
 permalink: /:title/
 
 markdown: kramdown
