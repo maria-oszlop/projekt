@@ -6,7 +6,7 @@ bio: 'Desenvolvedor Front-end na Catho'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://koppl.in
+url: https://sergiokopplin.github.io
 permalink: /:title/
 
 markdown: kramdown
