@@ -12,5 +12,5 @@ Just some React [Examples](https://facebook.github.io/react/).
 
 :snowflake:
 
-![Imagem Sublime](/assets/images/{{ page.img }})
+![Imagem React](/assets/images/{{ page.img }})
 <span class="img-description">fonte: github.com/sergiokopplin/react</span>
