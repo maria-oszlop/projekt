@@ -15,17 +15,12 @@ Você pode conferir os softwares, hardware e setup que eu uso, [aqui][setup].
 
 O código desse site está aberto e disponível no [Github][github].
 
-Apesar desse site ser sobre desenvolvimento você também pode dar uma olhada nos meus trabalhos como baterista no meu canal do [Youtube][y] ou conferir a playlist abaixo:
-
-<iframe width="700" height="394" src="//www.youtube.com/embed/videoseries?list=PLEOSK5h2UUqVC3U2_NygtskxAaLW0DfUK" frameborder="0" allowfullscreen></iframe>
-
 [imdb]: http://imdb.com/title/tt0102926/
 [catho]: http://catho.com.br/
 [img]: /{{ site.picture }}
 [ipi]: http://www.ipib.org/
 [f]: http://facebook.com/sergiokopplin
 [s]: http://open.spotify.com/user/1259926422
-[y]: http://youtube.com/sergiokopplin
 [g]: http://github.com/sergiokopplin
 [ss]: http://pt.slideshare.net/sergiokopplin
 [e]: mailto:sergiokopplin@gmail.com
