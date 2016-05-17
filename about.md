@@ -1,7 +1,6 @@
 ---
 title: About
 layout: page
-permalink: /about/index.html
 ---
 ![Perfil][img]{:style="margin: 30px auto; width: 100px; border-radius: 100%; display: block;"}
 
