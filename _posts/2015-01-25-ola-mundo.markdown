@@ -4,7 +4,7 @@ layout: post
 date: 2015-01-25 17:40
 tag:
 - inicio
-image: ola-mundo/yellow.jpg
+image: ola-mundo.jpg
 blog: true
 draft: true
 ---

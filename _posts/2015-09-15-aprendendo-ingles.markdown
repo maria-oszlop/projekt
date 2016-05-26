@@ -4,7 +4,7 @@ layout: post
 date: 2015-09-15 23:52
 tag:
 - ingles
-img: aprendendo-ingles/bg.jpg
+image: aprendendo-ingles.jpg
 description: "Olá, já parou para estudar inglês hoje? Pois é, tenho feito isso durante algum tempo e queria colocar as ferramentas que eu uso aqui nesse post para ajudar outras pessoas."
 blog: true
 ---
