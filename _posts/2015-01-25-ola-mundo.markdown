@@ -6,6 +6,7 @@ tag:
 - inicio
 img: ola-mundo/yellow.jpg
 blog: true
+draft: true
 ---
 Um novo blog acaba de surgir, nesse caso é o meu blog. Acredito que por ser meio perfeccionista, ele tenha demorado quase 1 ano pra ser terminado. Mas agora que consegui chegar num consenso entre meu lado front-end e meu lado back-end, acredito que posso seguir em frente.
 

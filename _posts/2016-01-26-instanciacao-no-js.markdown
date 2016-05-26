@@ -5,6 +5,7 @@ date: 2016-01-26 19:10
 tag:
 - javascript
 blog: true
+draft: true
 ---
 O JS é uma linguagem extremamente interessante e pode deixar os programadores caçando erros e bugs por conta de suas minúncias. Dentre elas, a declaração de variáveis.
 
