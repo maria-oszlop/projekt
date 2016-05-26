@@ -59,6 +59,10 @@ related: true
 # do you want some animations?
 animation: true
 
+sass:
+    sass_dir: _sass
+    style: :compressed
+
 gems:
   - jemoji
   - jekyll-mentions
@@ -71,4 +75,4 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh, tasks]
