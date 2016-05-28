@@ -12,7 +12,7 @@ Um novo blog acaba de surgir, nesse caso é o meu blog. Acredito que por ser mei
 
 <!-- more -->
 
-![Imagem Exemplo](/assets/images/{{ page.img }})
+![Imagem Exemplo](/assets/images/{{ page.image }})
 
 Pensando em "como as estrelas brilham pra mim", decidi que precisava de um site, de um blog, de um lugar meu na internet. Um lugar para as minhas idéias, meus estudos e talvez meus narcisismos.
 

@@ -10,5 +10,5 @@ jemoji: '<img class="emoji" title=":snowflake:" alt=":snowflake:" src="https://a
 ---
 Just some [React](https://facebook.github.io/react/) Examples.
 
-![Imagem React](/assets/images/{{ page.img }})
+![Imagem React](/assets/images/{{ page.image }})
 <span class="img-description">fonte: [github.com/sergiokopplin/react](https://github.com/sergiokopplin/react)</span>
