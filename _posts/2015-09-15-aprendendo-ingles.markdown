@@ -12,7 +12,7 @@ blog: true
 
 A língua inglesa é essencial hoje em dia, essencial para conseguir um emprego melhor, para conversar com pessoas de fora do Brasil e também para visitar o Mickey. E por ele ser assim, tão importante, comecei a estudar intensamente para poder aprimorar e talvez conseguir, um dia, um emprego fora do Brasil.
 
-![Imagem Inglaterra]({{ page.image }})
+![Imagem Inglaterra]({{ page.image }})pala
 
 A minha contribuição é mostrar as ferramentas que eu uso hoje, que são:
 
@@ -24,7 +24,7 @@ Faço inglês particular com uma amiga e isso fez toda a diferença. Ainda que f
 
 ### Duolingo: [Duolingo](https://www.duolingo.com/)
 
-Para complementar o aprendizado da aula particular, decidi por utilizar o Duolingo para melhorar meu vocabulário e minha escrita. Acabei por aprender também a leitura e a pronúncia de muitas palabras básicas que eu não sabia. Eu indico o Duolingo em 10 de 10 pontos. Faça que vale muito a pena. E é free.
+Para complementar o aprendizado da aula particular, decidi por utilizar o Duolingo para melhorar meu vocabulário e minha escrita. Acabei por aprender também a leitura e a pronúncia de muitas palavras básicas que eu não sabia. Eu indico o Duolingo em 10 de 10 pontos. Faça que vale muito a pena. E é free.
 
 
 ### Estudo Geral: [TED](http://ted.com)
