@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
-    requireDir = require('require-dir');
+    requireDir = require('require-dir')
 
-requireDir('./tasks', { recurse: true });
+requireDir('./tasks', { recurse: true })
 
-gulp.task('default', ['imagemin', 'browserSync', 'watch']);
+gulp.task('default', ['browserSync', 'watch'])
